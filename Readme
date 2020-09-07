@@ -1,0 +1,13 @@
+
+
+#using Zalemiun for Live Execution
+
+# pull image :  docker pull elgalu/selenium
+#pull image : docker pull dosel/Zalenium
+
+#Run Docker command :  docker run -d --rm -ti --name zalenium -p 4444:4444 -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/videos:/home/seluser/videos --privileged dosel/zalenium start
+
+#Execute selenium script via CLI :  mvn clean test -DsuiteXmlFile="testng.xml"
+
+#Check results on : http://localhost:4444/dashboard/    and   http://localhost:4444/grid/admin/live
+ 
